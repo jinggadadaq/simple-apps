@@ -1,6 +1,6 @@
 services:
   simple-app:
-    container_name: ct-simple-app-pipeline1
+    container_name: ct-simple-app-pipeline2
     build: ./app
     image: jinggaadisaputra/img-simpleapps:v1-stable
     ports:
