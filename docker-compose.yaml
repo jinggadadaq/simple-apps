@@ -1,6 +1,7 @@
 services:
   simple-app:
     container_name: ct-simple-app-prod
+    build: ./app
     image: jinggaadisaputra/img-simpleapps:v1-stable
     ports:
     - "10000:3000"
